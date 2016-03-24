@@ -70,10 +70,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="L8r-ZD-ZrP">
                                 <rect key="frame" x="155" y="116" width="290" height="98"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="F25-Z1-5gx">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="F25-Z1-5gx" customClass="DragImg" customModule="mylittlemonster" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="95" height="98"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="Udj-q7-z2s">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="Udj-q7-z2s" customClass="DragImg" customModule="mylittlemonster" customModuleProvider="target">
                                         <rect key="frame" x="195" y="0.0" width="95" height="98"/>
                                     </imageView>
                                 </subviews>
@@ -138,6 +138,8 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="foodImg" destination="Udj-q7-z2s" id="Vcv-t6-Pcd"/>
+                        <outlet property="heartImg" destination="F25-Z1-5gx" id="44U-KF-PHF"/>
                         <outlet property="monsterImg" destination="wYZ-Da-6ya" id="nTz-KZ-31b"/>
                     </connections>
                 </viewController>
