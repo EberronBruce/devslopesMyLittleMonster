@@ -11,23 +11,25 @@ import UIKit
 
 class MonsterImg: UIImageView {
     
+    //var name: String = "idle"
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        playIdleAnimation()
+        //playIdleAnimation(name)
     }
     
-    func playIdleAnimation() {
-        self.image = UIImage(named: "idle1.png")
+    func playIdleAnimation(name: String) {
+        self.image = UIImage(named: "\(name)1.png")
         
         self.animationImages = nil
         
         var imgArray = [UIImage]()
         for x in 1...4 {
-            let img = UIImage(named: "idle\(x).png")
+            let img = UIImage(named: "\(name)\(x).png")
             imgArray.append(img!)
         }
         
@@ -37,15 +39,15 @@ class MonsterImg: UIImageView {
         self.startAnimating()
     }
     
-    func playDeathAnimation() {
+    func playDeathAnimation(name: String) {
         
-        self.image = UIImage(named: "dead5.png")
+        self.image = UIImage(named: "\(name)5.png")
         
         self.animationImages = nil
         
         var imgArray = [UIImage]()
         for x in 1...5 {
-            let img = UIImage(named: "dead\(x).png")
+            let img = UIImage(named: "\(name)\(x).png")
             imgArray.append(img!)
         }
         
