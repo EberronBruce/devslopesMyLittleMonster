@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A3172F41CA3FBA7007DC1A3 /* mylittlemonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mylittlemonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3172F41CA3FBA7007DC1A3 /* Pet Rock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Rock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3172F71CA3FBA7007DC1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A3172F91CA3FBA7007DC1A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A3172FC1CA3FBA7007DC1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		7A3172F51CA3FBA7007DC1A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A3172F41CA3FBA7007DC1A3 /* mylittlemonster.app */,
+				7A3172F41CA3FBA7007DC1A3 /* Pet Rock.app */,
 			);
 			name = Products;
 			path = ..;
@@ -103,7 +103,7 @@
 			);
 			name = mylittlemonster;
 			productName = mylittlemonster;
-			productReference = 7A3172F41CA3FBA7007DC1A3 /* mylittlemonster.app */;
+			productReference = 7A3172F41CA3FBA7007DC1A3 /* Pet Rock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -283,7 +283,7 @@
 				INFOPLIST_FILE = mylittlemonster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redravencomputing.mylittlemonster;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pet Rock";
 			};
 			name = Debug;
 		};
@@ -294,7 +294,7 @@
 				INFOPLIST_FILE = mylittlemonster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redravencomputing.mylittlemonster;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pet Rock";
 			};
 			name = Release;
 		};
@@ -317,6 +317,7 @@
 				7A3173081CA3FBA7007DC1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
